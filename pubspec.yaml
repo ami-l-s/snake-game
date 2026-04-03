@@ -1,0 +1,47 @@
+name: snake_munchies
+description: Snake Munchies - A cute twist on the classic snake game by Amilabstech
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Game engine
+  flame: ^1.17.0
+  
+  # Ads
+  google_mobile_ads: ^5.1.0
+  
+  # In-app purchases
+  in_app_purchase: ^3.2.0
+  
+  # Storage
+  shared_preferences: ^2.2.3
+  
+  # UI
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.3.0
+  flutter_animate: ^4.5.0
+  google_fonts: ^6.2.1
+  audioplayers: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "Assets/icon.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - Assets/
